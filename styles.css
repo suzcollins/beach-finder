@@ -1,0 +1,221 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: #DCF0F1;
+}
+
+.fav{
+  text-align:center;
+  font-size: 60px;
+  font-family: 'Forum', cursive;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.GH{
+  height:450px;
+  float:left;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.headerImage{
+  width:100%;
+}
+
+.ghDescrip{
+  font-size:26px;
+  margin-right: 20px;
+}
+
+.favBeachJessica{
+  font-family: 'Forum', cursive;
+  margin-bottom: 140px;
+  margin-left: 20px;
+
+}
+.jess{
+  margin-left:20px;
+  margin-bottom: 20px;
+}
+
+.favBeachSuzanne{
+  font-family: 'Forum', cursive;
+  margin-bottom: 110px;
+  margin-left: 20px;
+}
+.suz{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.favBeachOlivia{
+  font-family: 'Forum', cursive;
+  margin-left: 20px;
+}
+.olivia{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.OGT{
+  float: left;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.ogtDescrip{
+  font-size: 26px;
+  margin-right: 20px;
+}
+.grbDescrip{
+  font-size: 26px;
+  margin-right: 20px;
+}
+.GRB{
+  float: left;
+  margin-left:20px;
+  margin-right:20px;
+  height:450px;
+}
+.favBeachOlivia{
+  margin-left: 20px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #0D2A36;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #C5D1E8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height:60px;
+/* justify-content: center; */
+align-items: center;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DCF0F1;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #DCF0F1;
+  color: black;
+}
+
+@media screen and (max-width:600px){
+  .GH{
+    width:500px;
+    height:400px;
+  }
+  .GRB{
+    width:500px;
+    height:400px;
+  }
+  .OGT{
+    width:500px;
+    height:400px;
+  }
+}
+
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #DCF0F1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#DCF0F1;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color:  #DCF0F1;
+  color: black;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #DCF0F1;
+  }
+}
+
+
+.titleone {
+  text-align:center;
+  letter-spacing: 1pt;
+  font-size: 30pt;
+  margin-bottom: 15px;
+  justify-content:
+}
+
+.pone {
+  text-align: center;
+  margin: 0;
+  font-size: 20pt;
+  font-weight: 900;
+  display: none;
+}
+
+.table {
+	display: table;
+	width: 100%;
+	height: 100%;
+  background-color: white;
+}
+
+/* #centeralign {
+	display: table-cell;
+	vertical-align: middle;
+} */
+.centeralign{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}

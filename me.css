@@ -1,0 +1,194 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.headerImage{
+  width:100%;
+}
+body{
+
+  background-color: #DCF0F1;
+  justify-content: space-around'
+
+}
+p{
+    font-family: 'Forum', cursive;
+}
+.text{
+  margin-top:15px;
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+.meBeaches{
+  text-align: center;
+  font-family: 'Forum', cursive;
+  font-size:60px;
+  margin-top: 15px;
+}
+.topnav a {
+  float: left;
+  color: #C5D1E8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height:60px;
+
+align-items: center;
+}
+
+.topnav a:hover {
+  background-color: #DCF0F1;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #DCF0F1;
+  color: black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #DCF0F1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#DCF0F1;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:  #DCF0F1;
+  color: black;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #DCF0F1;
+  }
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #D4B1E5;
+  color: white;
+  transform: rotateY(180deg);
+  font-size:25px;
+}
+
+.higgensBeach{
+  margin-top:30px;
+  font-family: 'Forum', cursive;
+}
+
+
+.longBeachYork{
+  font-family: 'Forum', cursive;
+  margin-top: 15px;
+}
+
+/* .meBeachers{
+display: flex;
+justify-content: center;
+align-items: center;
+} */
